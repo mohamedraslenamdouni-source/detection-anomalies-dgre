@@ -274,7 +274,7 @@ invisibles à la relecture du code.
 **Prérequis** : Python 3.11 ou plus récent.
 
 ```bash
-git clone https://github.com/<utilisateur>/detection-anomalies-dgre.git
+git clone https://github.com/mohamedraslenamdouni-source/detection-anomalies-dgre.git
 cd detection-anomalies-dgre
 py -m pip install -r requirements.txt
 ```
