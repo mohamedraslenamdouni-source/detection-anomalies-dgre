@@ -1,0 +1,79 @@
+# ══════════════════════════════════════════════════════════════════
+#  Données d'exploitation DGRE — ne jamais publier
+# ══════════════════════════════════════════════════════════════════
+
+# Fichiers de mesure Hydras 3 (réels et de démonstration)
+*.MIS
+*.mis
+demo/
+mis_demo/
+quarantaine/
+quarantaine_rejets/
+
+# Bases SQLite, sauvegardes et copies de récupération
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.bak
+sauvegardes/
+DONNEES_SYNTHETIQUES_LISEZMOI.md
+
+# Stations : coordonnées précises, état des pannes, tracé du réseau
+# (à publier seulement avec l'accord de l'encadrante)
+config_stations.csv
+!config_stations_exemple.csv
+etats_stations.csv
+reseau_stations.csv
+arrets_classes.csv
+trous_numerisation_confirmes.csv
+verifications_*.csv
+verifications_*.xlsx
+carte_stations.html
+
+# ══════════════════════════════════════════════════════════════════
+#  Secrets, identifiants et configuration propre à la machine
+# ══════════════════════════════════════════════════════════════════
+.streamlit/secrets.toml
+.streamlit/preferences.json
+credentials.*
+*.env
+.env*
+lancer_agent.bat
+tache_agent.xml
+
+# ══════════════════════════════════════════════════════════════════
+#  Visuels sous licence Canva (redistribution non autorisée)
+# ══════════════════════════════════════════════════════════════════
+assets/
+
+# ══════════════════════════════════════════════════════════════════
+#  Anciennes versions et copies
+# ══════════════════════════════════════════════════════════════════
+memoire1.py
+theme(1).py
+theme_ancien.py
+theme_ancien2.py
+vues/accueil(1).py
+
+# ══════════════════════════════════════════════════════════════════
+#  Journaux, exécutables, fichiers générés
+# ══════════════════════════════════════════════════════════════════
+logs/
+*.log
+*.lock
+sqlite3.exe
+*.exe
+
+# ══════════════════════════════════════════════════════════════════
+#  Python et système
+# ══════════════════════════════════════════════════════════════════
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.onetoc2
+.DS_Store
+Thumbs.db
+desktop.ini
+/coherence.py

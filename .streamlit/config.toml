@@ -1,0 +1,20 @@
+# Thème NATIF de Streamlit
+# ─────────────────────────────────────────────
+# Indispensable en plus de theme.py : Streamlit dessine ses propres composants
+# (métriques, expanders, tableaux, champs) avec SON thème à lui. S'il est en
+# mode sombre, il écrit ses libellés en clair — invisibles sur notre fond
+# crème — et donne aux expanders un bandeau noir.
+#
+# theme.py habille la page ; ce fichier règle les composants internes.
+# Les couleurs sont celles de la palette « clair » de theme.py.
+
+[theme]
+base                     = "light"
+primaryColor             = "#254940"   # vert pin — accent
+backgroundColor          = "#F2EDE3"   # papier crème
+secondaryBackgroundColor = "#FDFBF6"   # cartes, barre latérale
+textColor                = "#2E2C28"   # charbon
+font                     = "sans serif"
+
+[client]
+toolbarMode = "minimal"
